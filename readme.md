@@ -14,8 +14,9 @@ It specfically talk about
 ## Architecture Overview
 
 ```
-[EVE-NG Devices] <--> [Pnet1: 20.0.0.1] <--> [VMnet10] <--> [Linux VM ens34: 20.0.0.10]
-                                                         <--> [Linux VM ens33: 192.168.1.17] <--> [Internet]
+[EVE-NG Devices] <--> [Pnet1] <--> [Bridge/Network] <--> [Linux VM eth1]
+                                                    <--> [Linux VM eth0] <--> [Your PC Network]
+[EVE-NG Devices] <--> [Pnet1]						<--> [Cisco router ]
 ```
 
 ## Use Cases and Business Requirements
