@@ -1,6 +1,15 @@
-# EVE-NG External Linux VM Connectivity Setup Guide
+# EVE-NG External Connectivity Setup Guide
 
-Complete step-by-step guide to configure EVE-NG with external Linux VM for internet connectivity and lab networking.
+This guide help to understand how to connect devices on EVE-NG, be it Routers, Switches, Firewall to talk to external world or talk to specfic VM ( explained Linux VM here) in additon to use default managment interface of EVE-NG
+
+It specfically talk about 
+
+ - How to create new Interface ( Pnet1) on EVE-NG
+ - How to attached them to virtual NIC on VMWARE station
+ - How to configure dual nic on Exteranl Linux ( have linux server running on VMMWARE work station)
+ - Finaly configure a network devices and test connectvity from this device to external linux
+
+
 
 ## Architecture Overview
 
